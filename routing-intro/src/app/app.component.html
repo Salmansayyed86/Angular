@@ -1,0 +1,11 @@
+<!-- using hard coded path -->
+<!-- <a routerLink="home"><label>Home</label></a>
+<a routerLink="settings"><label>Settings</label></a> -->
+
+<!-- using variables -->
+<!-- <a [routerLink]="homePath"><label>Home</label></a>
+<a [routerLink]="settingsPath"><label>Settings</label></a> -->
+
+<!-- using array from TS -->
+<a *ngFor= "let route of routePath" [routerLink]="route.url">{{route.name}}</a>
+<router-outlet></router-outlet>

@@ -1,0 +1,19 @@
+.address{
+    border: 2px solid  black;
+    padding: 15px;
+    width: 25%
+}
+
+.name{
+    font-family: 'Gill Sans',  'Trebuchet MS', sans-serif
+}
+
+.job{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.phone{
+    border: 1px solid green;
+    padding: 15px;
+}
