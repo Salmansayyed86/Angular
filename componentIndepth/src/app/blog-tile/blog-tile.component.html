@@ -1,0 +1,10 @@
+<div style=" width:20em; height: 100; ">
+
+  <div style="padding-left: 2em;padding: 1em;">
+    <h3 class="card-title">{{post.title}}</h3>
+    <!-- <p class="card-body">{{ post.summary | truncate:[30 , "...."] }}</p> -->
+    <p class="card-body">{{ post.summary }}</p>
+    <button (click)="onToggle()" class="btn btn-primary">{{buttonText}}</button>
+
+  </div>
+</div>

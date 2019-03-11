@@ -1,0 +1,3 @@
+Encapsulation is used for sharing style between parent and child component so that it can be accessed between components.
+angular add extra information with every tag and class so that it gets differentiated by others.
+using Encapsulation and by setting the appropriate value this behaviour can be changed
