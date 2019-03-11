@@ -1,0 +1,15 @@
+<hr>
+<p>Address Component start</p>
+<div class="address">
+    <h1 class="name">{{ user.name }}</h1>
+    <h3 class="job">{{user.designation}}</h3>
+    <p>{{ user.address}}</p>
+    <button (click)='onToggle()'>{{buttonText}}</button>
+    
+    <div *ngIf='!isCollapsed'>
+        <div class="phone" *ngIf='user.phone.length > 0'>
+            <p>Phone</p>
+            <p *ngFor='let phoneNumber of user.phone'>{{phoneNumber}}</p>
+        </div>
+    </div>
+</div>

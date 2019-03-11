@@ -1,0 +1,20 @@
+<hr>
+ <h2>This is an examlpe of Module<br></h2>
+ <p>Module Name :- View<br>
+ Component Name :- Show-Card
+</p>
+<hr>
+ <h2>This is an examlpe of REST API CAll<br></h2>
+ <h3>Calling to GitHub API To Fetch information about a user </h3>
+ <h4>Calling Method Type GET</h4>
+<Label>UserName:- </Label>
+<input type ="text" [(ngModel)] ="userName" >
+<button type = "submit" (click) = "onSubmit()" >submit</button>
+<div *ngIf = "response">
+    <p>Login Name :- {{ response.login}}</p>
+    <p>Name :- {{ response.name}}</p>
+    <p>Login id :- {{ response.id}}</p>
+    <p>Public Repos :- {{ response.public_repos}}</p>
+    <p>Public Gists :- {{ response.public_gists}}</p>
+    <p>URL :- {{ response.url}}</p>
+</div>
