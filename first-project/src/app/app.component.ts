@@ -12,6 +12,8 @@ export class AppComponent  {
   
   user : User = new User();
   textToShow :string = "Initial Value";
+  
+  //Update directly from github. testing !!! 
 
 
   constructor(private svc: TestService, private httpTest: HttpClient){
